@@ -3,4 +3,4 @@
 valor = float(input('Digite um valor: '))
 cent = valor * 100
 mili = valor * 1000
-print(' O valor {} metros, equivale a \n {} centímetros \n {} milímetros'.format(valor, cent, mili))
+print(' O valor {} metros, equivale a \n {:.0f} centímetros \n {:.0f} milímetros'.format(valor, cent, mili))
