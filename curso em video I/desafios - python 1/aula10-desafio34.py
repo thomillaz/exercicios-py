@@ -12,9 +12,9 @@ Para os inferiores ou iguais, o aumento
 sal = float(input('Digite seu salário: R$'))
 aumento = 0
 
-if sal > 1250:
-    aumento = 1250 * 0.10
+if sal <= 1250:
+    aumento = sal * 0.15
     print(f'Salário: R${sal:.2f} \nc/ aumento: R${sal+aumento:.2f}')
 else:
-    aumento = 1250 * 0.15
+    aumento = sal * 0.10
     print(f'Salário: R${sal:.2f} \nc/ aumento: R${sal+aumento:.2f}')

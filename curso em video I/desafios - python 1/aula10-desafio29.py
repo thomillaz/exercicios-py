@@ -9,8 +9,8 @@ do limite.
 velocidade = int(input('Qual a velocidade do seu carro? '))
 multa = 0
 
-if velocidade >= 80:
-    multa = (velocidade / 80) * 7
+if velocidade > 80:
+    multa = (velocidade - 80) * 7
     print('Velocidade acima do permitido!')
     print(f'Multa: R${multa:.2f}')
 else:
