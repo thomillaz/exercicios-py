@@ -11,11 +11,11 @@ nota1 = float(input('Insira sua nota: '))
 nota2 = float(input('Insira sua outra nota: '))
 media = (nota1 + nota2)/2
 
-print(f'Nota 1: {nota1} | Nota 2: {nota2} | Média: {media}')
+print(f'Nota 1: {nota1:.1f} | Nota 2: {nota2:.1f} | Média: {media:.1f}')
 
 if media >= 7.0:
-    print('Aprovado.')
-elif media >= 5.0 and media <= 6.9:
-    print('Recuperação.')
+    print('APROVADO.')
+elif 6.9 >= media >= 5.0:
+    print('RECUPERAÇÃO.')
 else:
-    print('Reprovado.')
+    print('REPROVADO.')

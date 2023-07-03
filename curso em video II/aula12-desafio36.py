@@ -16,9 +16,9 @@ parcela = (ano * 12)
 preMensal = valorCasa / parcela
 
 print(f'30% de R${salario:.2f} é R${porcentagem:.2f}')
+print(f'O valor da prestação é de R${preMensal:.2f}')
 
 if preMensal <= porcentagem:
-    print(f'Valor da prestação mensal: R${preMensal:.2f}')
-    print(f'Será pago em {ano} ano(s), em {parcela} parcela(s)')
+    print(f'Empréstimo concedido!\nSerá pago em {ano} ano(s), em {parcela} parcela(s)')
 else:
     print('Empréstimo negado. Saldo insuficiente.')
