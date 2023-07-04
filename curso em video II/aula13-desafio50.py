@@ -3,11 +3,11 @@
 e mostre a soma apenas daqueles que forem pares. Se o
 valor for ímpar, desconsidere-o.
 '''
-num = int(0)
-soma = int(0)
+num = 0
+soma = 0
 
 for i in range(1, 7):
-    num = int(input('Digite um valor: '))
+    num = int(input(f'Digite o {i} valor: '))
     if num % 2 == 0:
         soma += num
     

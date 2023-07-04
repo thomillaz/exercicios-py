@@ -5,7 +5,8 @@ termos dessa progressão.
 '''
 termo = int(input('Digite um número: '))
 razao = int(input('Digite o valor da razão: '))
+decimo = termo + (10 - 1) * razao
 
-for i in range(0, 10):
+for i in range(termo, decimo + razao, razao):
     print(f'{termo}', end=', ')
     termo += razao
